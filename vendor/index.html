@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="gb-retract" content="#panel">
+<title>doory</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23e25a2a'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="doory.css">
+</head>
+<body>
+<div id="stage">
+  <canvas id="canvas" aria-label="Poster canvas"></canvas>
+</div>
+<div id="panel">
+  <div class="top"><strong>doory</strong><span id="selname">Page</span></div>
+  <p id="hint">Drag a piece. Pinch to scale and turn.</p>
+  <label class="field">Words
+    <input id="words" type="text" maxlength="42" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="done" placeholder="Select text">
+  </label>
+  <div class="swatches" id="swatches"></div>
+  <div class="grid">
+    <button type="button" data-act="text">Text</button>
+    <button type="button" data-act="ellipse">Circle</button>
+    <button type="button" data-act="rect">Block</button>
+    <button type="button" data-act="star">Star</button>
+  </div>
+  <div class="grid">
+    <button type="button" data-act="smaller">A−</button>
+    <button type="button" data-act="larger">A+</button>
+    <button type="button" data-act="dup">Copy</button>
+    <button type="button" data-act="del">Delete</button>
+    <button type="button" data-act="front">Front</button>
+    <button type="button" data-act="back">Back</button>
+  </div>
+  <div class="grid">
+    <button type="button" data-act="blank">Blank page</button>
+    <button type="button" data-act="lantern">Lantern</button>
+    <button type="button" data-act="invite">Invite</button>
+    <button type="button" data-act="undo">Undo</button>
+    <button type="button" data-act="png">Save PNG</button>
+  </div>
+  <p class="credit">idea after @shaongitbd (shaongitbd/doory); clean-room implementation, no code copied</p>
+</div>
+<script src="doory.js"></script>
+</body>
+</html>
