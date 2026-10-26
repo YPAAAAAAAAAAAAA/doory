@@ -1,0 +1,17 @@
+{
+  "id": "doory",
+  "title": { "en": "doory", "zh": "多里" },
+  "intro": {
+    "en": "A phone poster desk in the browser. Start from a blank page or a starter, drag type and shapes, pinch to resize, and the design stays on this device.",
+    "zh": "浏览器里的手机海报台。从空白页或一张起稿开始，拖动文字和形状，双指缩放，设计保存在这台设备上。"
+  },
+  "officialFiles": [
+    "vendor/index.html",
+    "vendor/doory.css",
+    "vendor/doory.js",
+    "vendor/LICENSE.txt"
+  ],
+  "playHtml": "play.html",
+  "aspect": "phone",
+  "githubRepo": "ypaaaaaaaaaaaaa/doory"
+}
